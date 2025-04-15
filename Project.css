@@ -8,6 +8,10 @@ body{
 
 /* Header styling */
 
+.icon{
+    display: none;
+}
+
 
 nav ul li {
     float: left;
@@ -944,4 +948,208 @@ div select{
 }
 .fa-x-twitter:hover{
     color: rgba(255, 255, 255, 0.719);
+    }
+
+
+    @media (min-width: 320px) and (max-width: 600px){
+
+        
+
+header{
+    margin: 0;
+}
+
+
+
+ .head-section {
+     position:relative;
+        }
+
+        .head-logo {
+            display: block;
+            margin: 10px 0 0 0;
+            width: 200px;
+            height: 30px;
+        }
+
+.doordash{
+    display: none;
+}
+
+.icon{
+    position: absolute;
+    right: 20px;
+    font-size: 1.2rem;
+    top: 10px;
+    color: #eb1701;
+}
+
+.logo{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: unset;
+}
+
+.main h1{
+    display: block;
+    margin: 0 auto;
+    position: unset;
+    width: auto;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.search-box{
+    display: block;
+    margin: 20px;
+    height: 30px;
+    position: unset;
+}
+
+
+div input {
+    outline: none;
+    height: 22px;
+    margin-left: 10px;
+    border: none;
+    font-size: 1rem;
+    margin-top: 5px;
+    width: auto;
+}
+
+.fa-location-dot{
+    margin: 0;
+}
+
+.saved-address{
+    margin: 0 auto;
+    position: unset;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.faruq {
+    margin: 0 auto;
+    position: unset;
+    text-align: center;
+}
+
+.ola {
+    margin: 0 auto;
+    position: unset;
+    text-align: center;
+}
+
+.wale {
+    margin: 0 auto;
+    position: unset;
+    text-align: center;
+}
+
+.eating{
+    object-fit: contain;
+    width: 100%;
+    float: unset;
+    margin: auto;
+    height: auto;
+    padding: unset;
+}
+
+
+.third-section{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: unset;
+}
+
+ .third-section h4{
+    font-size: 2rem;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+ .third-section h5{
+    font-size: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+ .third-section p{
+    white-space: pre-line;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.resturants{
+    margin: 0 80px;
+}
+
+
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.food{
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+    padding: unset;
+    height: auto;
+}
+
+.delivery{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.delivery h4{
+    font-size: 2rem;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+ .delivery h5{
+    font-size: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+ .delivery p{
+    white-space: pre-line;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
+
+.fifth-section, .sixth, .seventh, .eight-container, .ninth-section {
+    display: none;
+}
     }
