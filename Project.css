@@ -1102,6 +1102,7 @@ div input {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-bottom: unset;
 }
 
 .food{
@@ -1144,12 +1145,250 @@ div input {
     text-align: center;
 }
 
+.third-section h4 {
+    line-height: 1.1;
+}
+
+.third-section h5 {
+    margin: 20px auto;
+}
+
+.resturants  {
+    font-size: 0.8rem;
+    margin-left: 100px;
+}
+
+.fourth-section{
+    position: relative;
+}
+
+.delivery{
+    height: 250px;
+    margin: 20px auto;
+}
+
+h6 {
+    font-size: 1.5rem;
+    line-height: 1.1;
+}
+.Dashpass{
+    padding: 5px;
+    left: 110px;
+    font-size: 0.8rem;
+    height: 350px;
+}
+
+.fifth-section {
+    width: auto;
+    display: block;
+    margin-top: 0;
+    height: 350px;
+}
+
+.back{
+    padding: unset;
+    position: relative;
+    margin-top: 0;
+}
+
+.grocery  {
+    display: block;
+    margin: 20px auto;
+    position: unset;
+    font-size: 1.8rem;
+}
+
+.grocery2 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.grocery3  {
+    white-space: pre-line;
+    text-align: center;
+}
+
+
+.grocery4{
+    position: absolute;
+    margin-left: 100px;
+    padding: 5px;
+    font-size: 0.8rem;
+    top: 310px;
+}
+
+.sixth{
+    display: flex;
+    width: auto;
+    margin: 30px auto;
+    flex-direction: column;
+}
+
+.image-sixth{
+    float: unset;
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.div-sixth {
+    margin: 0 auto;
+    text-align: center;
+    white-space: pre-line;
+    width: 100%;
+    display: block;
+}
+
+
+.header-sixth{
+    padding: unset;
+}
+
+
+div p{
+    white-space: pre-line;
+    margin: 0 auto;
+}
+
+
+.link-sixth {
+    padding: 5px;
+}
+
+.seventh-header {
+    position: unset;
+    text-align: center;
+}
+
+
+.seventh-image {
+    position: unset;
+    width: 300px;
+    object-fit: contain;
+    height: auto;
+    margin: 10px;
+}
+
+.seventh-image2 {
+    position: unset;
+    width: 300px;
+    object-fit: contain;
+    height: auto;
+    margin: 400px 10px;
+}
+
+.seventh-container2  {
+    margin: 0;
+    position: absolute;
+    top: 450px;
+}
+
+
+.seventh-container3 {
+    margin: 0;
+    position: absolute;
+    top: 1100px;
+}
+
+.seventh-image3{
+    position: unset;
+    width: 300px;
+    object-fit: contain;
+    height: auto;
+    margin: 10px;
+}
+
+.seventh-image4{
+    position: unset;
+    width: 300px;
+    object-fit: contain;
+    height: auto;
+    margin: 350px 10px 350px 10px;
+}
+
+
+.seventh-container4{
+    margin: 0;
+    position: absolute;
+    bottom: 740px;
+}
+
+.small{
+    font-size: 1rem;
+    color: unset;
+}
+
+
+.seventh-container5 {
+    bottom: 100px;
+    right: unset;
+}
+
+.eight-container{
+    padding-bottom: unset;
+    margin-bottom: 50px;
+}
+
+
+.eight-image{
+    position: unset;
+    width: 300px;
+    object-fit: contain;
+    height: auto;
+    margin: 10px;
+    float: none;
+}
+
+.eight-header{
+    position: unset;
+}
+
+.eight-container2 {
+    position: unset;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ninth-image {
+    position: unset;
+    width: 300px;
+    object-fit: contain;
+    height: auto;
+    margin: 10px;
+}
+
+
+.ninth-container2{
+    float: none;
+    margin: 0;
+    text-align: center;
+}
 
 
 
 
 
-.fifth-section, .sixth, .seventh, .eight-container, .ninth-section {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tabs{
     display: none;
 }
-    }
+
+   
+}
+    
