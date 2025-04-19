@@ -951,7 +951,7 @@ div select{
     }
 
 
-    @media (min-width: 320px) and (max-width: 600px){
+    @media (min-width: 320px) and (max-width: 1000px){
 
         
 
@@ -977,16 +977,16 @@ header{
 }
 
 .icon{
+    display: block;
     position: absolute;
     right: 20px;
     font-size: 1.2rem;
-    top: 10px;
+    top: 0;
     color: #eb1701;
 }
 
 .logo{
     display: block;
-    width: 100%;
     margin: 0 auto;
     position: unset;
 }
@@ -1002,8 +1002,8 @@ header{
 
 .search-box{
     display: block;
-    margin: 20px;
-    height: 30px;
+    margin: 20px auto;
+    width: 270px;
     position: unset;
 }
 
@@ -1029,7 +1029,6 @@ div input {
 
 .second-section{
     display: flex;
-    flex-direction: column;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -1066,6 +1065,7 @@ div input {
     display: block;
     margin: 0 auto;
     width: 100%;
+    text-align: center;
     padding: unset;
 }
 
@@ -1211,9 +1211,9 @@ h6 {
 }
 
 
-.grocery4{
+.grocery4 {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 38%;
     padding: 5px;
     font-size: 0.8rem;
     top: 310px;
@@ -1269,15 +1269,17 @@ div p{
     width: 300px;
     object-fit: contain;
     height: auto;
-    margin: 10px;
+    display: block;
+    margin: 10px auto;
 }
 
-.seventh-image2 {
+.seventh-image2  {
     position: unset;
     width: 300px;
     object-fit: contain;
     height: auto;
-    margin: 400px 10px;
+    display: block;
+    margin: 400px auto;
 }
 
 .seventh-container2  {
@@ -1298,7 +1300,8 @@ div p{
     width: 300px;
     object-fit: contain;
     height: auto;
-    margin: 10px;
+    margin: 10px auto;
+    display: block;
 }
 
 .seventh-image4{
@@ -1306,7 +1309,8 @@ div p{
     width: 300px;
     object-fit: contain;
     height: auto;
-    margin: 350px 10px 350px 10px;
+    margin: 350px auto;
+    display: block;
 }
 
 
@@ -1315,6 +1319,11 @@ div p{
     position: absolute;
     bottom: 740px;
 }
+
+.seventh-container4 h4{
+    line-height: 1.1;
+}
+
 
 .small{
     font-size: 1rem;
@@ -1338,7 +1347,8 @@ div p{
     width: 300px;
     object-fit: contain;
     height: auto;
-    margin: 10px;
+    margin: 10px auto;
+    display: block;
     float: none;
 }
 
@@ -1352,12 +1362,18 @@ div p{
     text-align: center;
 }
 
+.eight-container2 h4{
+    padding-top: unset;
+    font-size: 1.8rem;
+}
+
 .ninth-image {
     position: unset;
     width: 300px;
     object-fit: contain;
     height: auto;
-    margin: 10px;
+    margin: 10px auto;
+    display: block;
 }
 
 
@@ -1367,28 +1383,109 @@ div p{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .tabs{
+    display: block;
+    margin-top: 100px;
+}
+
+.tab-contents, .tab2-contents, .tab3-contents{
+    display: none;
+
+}
+
+
+.tab-links{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+#active{
+    margin-left: 0;
+    padding: unset;
+}
+
+.active-link{
+    padding: unset;
+}
+
+
+.footer-columns{
+    position: unset;
+    height: unset;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link1, .link2, .link3, .link4, .link5, .link6, .link7{
+    position: unset;
+}
+
+
+*{
+    /* border: solid red; */
+}
+
+.footer-columns h3{
+        margin-left: 20px;
+}
+
+.footer-columns a{
+    margin: 10px auto 10px 20px;
+}
+
+
+.terms{
     display: none;
 }
 
+.img1{
+    position: absolute;
+    top: 0;
+}
+
+.hidden, .hidden2{
+    display: none;
+}
+
+.select-opt{
+    margin-right: 0;
+    bottom: 10px;
+    right: 10px;
+}
+
+.foot{
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    background-color: #000;
+}
+
+.fa-facebook{
+    left: 5px;
+    bottom: 15px;
+    position: absolute;
+}
+
+.fa-instagram{
+    bottom: 15px;
+    left: 30px;
+    position: absolute;
+}
    
+.fa-x-twitter{
+    position: absolute;
+    left: 55px;
+    bottom: 15px;
+
+}
+
+.footer-last {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
 }
     
