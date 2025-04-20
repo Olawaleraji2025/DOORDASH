@@ -934,12 +934,12 @@ div select{
 }
 
 .fa-globe{
-    position: absolute;
-    right: 110px;
-    top: 6px;
+    position: relative;
+    right: 0;
+    top: 3px;
     font-size: 20px;
     border-radius: 25px;
-   
+    left: 30px;
 }
 
 .fa-facebook{
@@ -1301,6 +1301,8 @@ div p{
     position: unset;
     text-align: center;
     width: 300px;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -1370,6 +1372,7 @@ div p{
 .small{
     font-size: 1rem;
     color: unset;
+    display: block;
 }
 
 
@@ -1500,13 +1503,16 @@ div p{
     margin-right: 0;
     bottom: 10px;
     right: 10px;
+    position: absolute;
 }
 
 .foot{
     height: 100px;
     position: relative;
     bottom: 0;
-    background-color: #000;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .fa-facebook{
@@ -1599,7 +1605,7 @@ div p{
 @media (min-width: 550px) and (max-width: 1350px){
 
     .fifth-section {
-    width: 560px;
+    width: 530px;
     display: block;
     margin: 0 auto;
     height: 350px;
@@ -1612,7 +1618,7 @@ div p{
 
 
     .back {
-        padding: 57px;
+        padding: 41px;
     }
 
 
@@ -1627,12 +1633,31 @@ div p{
         right: 0;
     }
 
+.select-opt{
+    right: 80px;
+}
+
+.fa-facebook{
+    left: 120px;
+}
+
+.fa-instagram{
+    left: 150px;
+}
+
+.fa-x-twitter{
+    left: 180px;
+}
+
 
 }
 
 @media (min-width: 1000px) and (max-width: 1350px){
 
-
+    .tab-contents, .tab2-contents, .tab3-contents{
+        display: none;
+    
+    }
    
 
     .third-section {
@@ -1676,7 +1701,7 @@ div p{
 }
 
 .back {
-    padding: 67px 0;
+    padding: 55px 0;
 }
 
 .grocery4{
@@ -1738,12 +1763,12 @@ div p{
 
 
 .footer-columns {
-    margin-top: 50px;
+    margin-top: 250px;
     justify-content: center;
 }
 
 .tab-contents, .tab2-contents, .tab3-contents{
-    display: block;
+    display: none;
 
 }
 
@@ -1774,7 +1799,7 @@ div p{
 @media (min-width: 1050px) and (max-width: 1350px){
     .seventh-container2 {
         right: 0;
-        left: 400px;
+        left: 486px;
         top: 155px;
     }
 
@@ -1792,7 +1817,7 @@ div p{
 
 .seventh-container3 {
     top: 580px;
-    left: 10%;
+    left: 2%;
     right: unset;
 }
 .seventh-image3 {
@@ -1835,12 +1860,13 @@ div p{
 .eight-container2 {
     position: absolute;
     right: 0;
-    top: 180px;
+    top: 150px;
     left: 500px;
 }
 
 .eight-container2 h4{
     font-size: 2.5rem;
+    line-height: 1.1;
 }
 
 
@@ -1857,6 +1883,20 @@ div p{
 
 
 
+
+
+
+}
+
+@media (min-width: 1218px) and (max-width: 1350px){
+    .tab-contents, .tab2-contents, .tab3-contents{
+        display: block;
+    
+    }
+
+    .footer-columns {
+    margin-top: 370px;
+    }
 
 
 
